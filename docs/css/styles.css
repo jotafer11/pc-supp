@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "PT Sans", sans-serif;
+}
+
+
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #383444;
+	margin: 0;
+	padding: 0;
+}
+
+/* ------------------------- */
+/* HEADER */
+/* ------------------------- */
+
+
+header {
+	 padding: 50px;
+	 background-color: aquamarine;
+	 text-align: center;
+}
+
+h1,h2,p {
+	color: #dddee0;
+}
+
+.pb {
+	font-weight: 700;
+}
+
+
+.avatar {
+	width: 186px;	
+	height: 123px;
+	border-radius: 10px;
+
+}
+
+.titulo {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.titulo2 {
+	margin-top: 10px;
+}
+
+/* ------------------------- */
+/* BODY */
+/* ------------------------- */
+
+
+
+.contenedor {
+	max-width: 1200px;
+	margin: auto;
+	background-color: red; 
+}
+
+.main-container {
+	width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.btn-item {
+	background-color: #2d2a36;
+	display: block;
+	border-radius: 5px;	
+	color: #dddee0;
+	margin: 1px;	
+	padding: 8px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.cardc {
+    padding: 1rem 1rem;
+    color: #A8B2D1;
+    border: 2px solid #424255;
+    border-radius: 3px;
+    margin: .3rem 0;
+    background-color: transparent;
+}
+
+.item-content {
+	background-color: transparent;	
+	overflow: hidden;
+	max-height: 0px;
+	opacity: 0;
+}
+
+.active + .item-content {
+	max-height: 1000px;
+	padding: 10px;
+	opacity: 1;
+}
+
+.item-content .cardc:hover {
+	background-color: #1a567e;
+	color: white;
+}
+
+span.page {
+    text-decoration: underline;
+}
+
+a { 
+	color: #08c;
+	font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease-out;    	 
+}
+
+.events-href:hover {
+  box-shadow: inset 0 -2px 0 var(--orange);
+  opacity: 0.8;
+}
+
+.btn-primary {
+    text-transform: capitalize;
+    border: 1px solid #08c;
+    padding: 2px 6px;
+    border-radius: 50px;
+    color: #08c;
+    letter-spacing: 1px;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    font-weight: 400;
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+}
